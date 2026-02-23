@@ -13,7 +13,7 @@ Atualmente, o script está configurado para analisar estatísticas de partidas d
 - **Cálculo de Médias:** Gera automaticamente a média de colocação e de dano do jogador nas partidas analisadas.
 - **Exportação:** Salva os dados analisados em uma planilha Excel (`meu_historico_tft.csv`).
 
-## Tecnologias Utilizadas
+ ## Tecnologias Utilizadas
 
 - **Python 3**
 - **Pandas** (para manipulação de dados e exportação do CSV)
