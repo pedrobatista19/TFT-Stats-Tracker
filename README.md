@@ -36,5 +36,15 @@ cd SEU_REPOSITORIO
 
 ```
 **2. Instale as dependências**
-```
+```bash
 pip install -r requirements.txt
+```
+**3. Configure as Variáveis do Ambiente**
+```bash
+RIOT_API_KEY=RGAPI-sua-chave-aqui-12345
+```
+**4. Ajuste os dados do jogador**
+```bash
+nickname = "seu_apelido"
+tag = "BR1"
+```
