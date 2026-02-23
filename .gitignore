@@ -1,5 +1,14 @@
+#Chaves de API
 .env
 
+# Cache do Python
 __pycache__/
+*.py[cod]
 
+# Temp files do VS Code/Code Runner
+tempCodeRunnerFile.py
+.vscode/
+
+# Dados gerados
 meu_historico_tft.csv
+
