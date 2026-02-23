@@ -48,6 +48,19 @@ RIOT_API_KEY=RGAPI-sua-chave-aqui-12345
 nickname = "seu_apelido"
 tag = "BR1"
 ```
+
 **5. Rode o Script**
 ```bash
 python main.py
+```
+
+## Estrutura do Arquivo de Saída
+Após a execução, um arquivo chamado meu_historico_tft.csv será gerado na mesma pasta, contendo:
+
+- ID_Partida
+
+- Colocação
+
+- Dano_Causado
+
+- Uma linha final com a MÉDIA TOTAL das estatísticas obtidas.
