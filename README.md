@@ -7,11 +7,11 @@ Atualmente, o script está configurado para analisar estatísticas de partidas d
 ## Funcionalidades
 
 - **Busca de Conta:** Converte o Riot ID (Nickname + Tag) no `PUUID` do jogador.
-- **Histórico Automático:** Resgata o ID das últimas 100 partidas jogadas.
+- **Histórico Automático:** Confere o ID das últimas 100 partidas jogadas.
 - **Filtro Inteligente:** Isola apenas as partidas do modo Duplas Dinâmicas até atingir uma meta de 30 partidas analisadas.
-- **Extração de Dados:** Coleta a colocação final e o dano total causado aos jogadores.
+- **Extração de Dados:** Capta a colocação final e o dano total causado aos jogadores.
 - **Cálculo de Médias:** Gera automaticamente a média de colocação e de dano do jogador nas partidas analisadas.
-- **Exportação:** Salva os dados processados em uma planilha Excel (`meu_historico_tft.csv`).
+- **Exportação:** Salva os dados analisados em uma planilha Excel (`meu_historico_tft.csv`).
 
 ## Tecnologias Utilizadas
 
@@ -46,7 +46,7 @@ RIOT_API_KEY=RGAPI-sua-chave-aqui-12345
 **4. Ajuste os dados do jogador**
 ```bash
 nickname = "seu_apelido"
-tag = "BR1"
+tag = "sua_tag"
 ```
 
 **5. Rode o Script**
