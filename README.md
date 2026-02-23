@@ -57,10 +57,10 @@ python main.py
 ## Estrutura do Arquivo de Saída
 Após a execução, um arquivo chamado meu_historico_tft.csv será gerado na mesma pasta, contendo:
 
-- ID_Partida
+- O ID das partidas analisadas
 
-- Colocação
+- Colocação em cada uma das partidas
 
-- Dano_Causado
+- Dano causado em cada uma das partidas
 
-- Uma linha final com a MÉDIA TOTAL das estatísticas obtidas.
+- Uma linha final com a Média Total das estatísticas obtidas.
