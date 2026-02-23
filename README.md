@@ -34,5 +34,6 @@ Antes de começar, você precisará ter instalado em sua máquina:
 git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
 cd SEU_REPOSITORIO
 
-**2. Instale as dependências
+**2. Instale as dependências**
+```
 pip install -r requirements.txt
